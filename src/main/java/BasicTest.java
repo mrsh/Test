@@ -33,7 +33,7 @@ public class BasicTest {
         /*Użycie asercji, która sprawdza, czy wyrażenie jest prawdziwe (pierwszy argument) - jeżeli nie, to wypisany zostanie tekst podany w drugim argumencie - wewnątrz asercji następuje uruchomienie metody
         "checkIfTrue" z przekazaniem do niej argumentu "true"
          */
-        Assert.assertTrue(checkIfTrue(false), "Got wrong value, expected: true, got: " + isTrue);
+        Assert.assertTrue(checkIfTrue(true), "Got wrong value, expected: true, got: " + isTrue);
     }
 
     // Oznaczenie metody testowej jako zależnej od wykonania innej metody - jeżeli wykonanie metody nadrzędnej zakończy się niepowodzeniem, to wykonanie tej metody zostanie pominięte

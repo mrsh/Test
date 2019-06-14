@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97fca140-3e30-483f-b5c9-32b443fd470c" name="Default Changelist" comment="" />
+    <list default="true" id="97fca140-3e30-483f-b5c9-32b443fd470c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BasicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasicTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BasicTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BasicTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,25 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="19" selection-start-line="9" selection-start-column="4" selection-end-line="15" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/BasicTest.java">
+        <entry file="file://$PROJECT_DIR$/chessboardSuite.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="47" column="144" selection-start-line="47" selection-start-column="144" selection-end-line="47" selection-end-column="144" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1517#1518#0" expanded="true" />
-                <element signature="e#1620#1621#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="340">
+              <caret line="20" column="62" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -44,11 +35,23 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/BasicTest.java" />
+        <option value="$PROJECT_DIR$/suite.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/selenium/ChessboardTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/selenium/ChessboardTableExistenceTest.java" />
+        <option value="$PROJECT_DIR$/chessboardSuite.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/selenium/ToggleChessboardTableTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/selenium/ChessboardTableNonExistenceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/selenium/ChessboardButtonExistenceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/selenium/PageTitleTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/selenium/TestBase.java" />
       </list>
     </option>
   </component>
@@ -77,7 +80,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -94,19 +97,34 @@
               <item name="Test" type="b2602c69:ProjectViewProjectNode" />
               <item name="Test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560178298284" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560506598694" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -126,23 +144,82 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.BasicTest">
-    <configuration name="BasicTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ToggleChessboardTableTest.verifyChessboardTableToggle">
+    <configuration name="C:/szkolenie-QA-repo/Test/chessboardSuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BasicTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/chessboardSuite.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BasicTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ChessboardButtonExistenceTest.verifyChessboardButtonExistence" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BasicTest" />
-      <option name="METHOD_NAME" value="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="selenium" />
+      <option name="MAIN_CLASS_NAME" value="selenium.ChessboardButtonExistenceTest" />
+      <option name="METHOD_NAME" value="verifyChessboardButtonExistence" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChessboardButtonExistenceTest.verifyChessboardButtonText" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="selenium" />
+      <option name="MAIN_CLASS_NAME" value="selenium.ChessboardButtonExistenceTest" />
+      <option name="METHOD_NAME" value="verifyChessboardButtonText" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChessboardTableNonExistenceTest.verifyChessboardTableNonExistence" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="selenium" />
+      <option name="MAIN_CLASS_NAME" value="selenium.ChessboardTableNonExistenceTest" />
+      <option name="METHOD_NAME" value="verifyChessboardTableNonExistence" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToggleChessboardTableTest.verifyChessboardTableToggle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="selenium" />
+      <option name="MAIN_CLASS_NAME" value="selenium.ToggleChessboardTableTest" />
+      <option name="METHOD_NAME" value="verifyChessboardTableToggle" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -152,8 +229,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.BasicTest" />
-        <item itemvalue="TestNG.BasicTest.test" />
+        <item itemvalue="TestNG.ToggleChessboardTableTest.verifyChessboardTableToggle" />
+        <item itemvalue="TestNG.C:/szkolenie-QA-repo/Test/chessboardSuite.xml" />
+        <item itemvalue="TestNG.ChessboardButtonExistenceTest.verifyChessboardButtonText" />
+        <item itemvalue="TestNG.ChessboardButtonExistenceTest.verifyChessboardButtonExistence" />
+        <item itemvalue="TestNG.ChessboardTableNonExistenceTest.verifyChessboardTableNonExistence" />
       </list>
     </recent_temporary>
   </component>
@@ -169,49 +249,56 @@
       <updated>1559840213214</updated>
       <workItem from="1559840238359" duration="4771000" />
       <workItem from="1560175240922" duration="1497000" />
+      <workItem from="1560181858622" duration="8671000" />
+      <workItem from="1560266641256" duration="13000" />
+      <workItem from="1560267594181" duration="9532000" />
+      <workItem from="1560325474836" duration="8000" />
+      <workItem from="1560440567982" duration="9589000" />
+      <workItem from="1560494221572" duration="3567000" />
+      <workItem from="1560512325861" duration="1773000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BasicTest_test - 2019.06.06 at 19h 44m 59s.xml">
-      <configuration name="BasicTest.test" configurationId="TestNG" />
+    <history-entry file="ChessboardButtonExistenceTest_verifyChessboardButtonExistence - 2019.06.13 at 19h 28m 31s.xml">
+      <configuration name="ChessboardButtonExistenceTest.verifyChessboardButtonExistence" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicTest_test - 2019.06.06 at 19h 48m 30s.xml">
-      <configuration name="BasicTest.test" configurationId="TestNG" />
+    <history-entry file="ChessboardButtonExistenceTest_verifyChessboardButtonText - 2019.06.13 at 19h 40m 57s.xml">
+      <configuration name="ChessboardButtonExistenceTest.verifyChessboardButtonText" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicTest_test - 2019.06.06 at 19h 49m 07s.xml">
-      <configuration name="BasicTest.test" configurationId="TestNG" />
+    <history-entry file="ChessboardButtonExistenceTest_verifyChessboardButtonText - 2019.06.13 at 19h 43m 26s.xml">
+      <configuration name="ChessboardButtonExistenceTest.verifyChessboardButtonText" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicTest_test - 2019.06.06 at 19h 59m 24s.xml">
-      <configuration name="BasicTest.test" configurationId="TestNG" />
+    <history-entry file="ChessboardButtonExistenceTest_verifyChessboardButtonText - 2019.06.13 at 19h 44m 47s.xml">
+      <configuration name="ChessboardButtonExistenceTest.verifyChessboardButtonText" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicTest_test - 2019.06.06 at 20h 00m 45s.xml">
-      <configuration name="BasicTest.test" configurationId="TestNG" />
+    <history-entry file="ToggleChessboardTableTest_verifyChessboardTableToggle - 2019.06.13 at 20h 00m 10s.xml">
+      <configuration name="ToggleChessboardTableTest.verifyChessboardTableToggle" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicTest_test - 2019.06.06 at 20h 08m 46s.xml">
-      <configuration name="BasicTest.test" configurationId="TestNG" />
+    <history-entry file="ToggleChessboardTableTest_verifyChessboardTableToggle - 2019.06.13 at 20h 03m 15s.xml">
+      <configuration name="ToggleChessboardTableTest.verifyChessboardTableToggle" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicTest_test - 2019.06.06 at 20h 12m 15s.xml">
-      <configuration name="BasicTest.test" configurationId="TestNG" />
+    <history-entry file="ToggleChessboardTableTest_verifyChessboardTableToggle - 2019.06.13 at 20h 04m 43s.xml">
+      <configuration name="ToggleChessboardTableTest.verifyChessboardTableToggle" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicTest_test - 2019.06.06 at 20h 14m 26s.xml">
-      <configuration name="BasicTest.test" configurationId="TestNG" />
+    <history-entry file="C__szkolenie-QA-repo_Test_chessboardSuite_xml - 2019.06.13 at 20h 13m 47s.xml">
+      <configuration name="C:/szkolenie-QA-repo/Test/chessboardSuite.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicTest - 2019.06.06 at 20h 18m 26s.xml">
-      <configuration name="BasicTest" configurationId="TestNG" />
+    <history-entry file="ToggleChessboardTableTest_verifyChessboardTableToggle - 2019.06.13 at 20h 17m 18s.xml">
+      <configuration name="ToggleChessboardTableTest.verifyChessboardTableToggle" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicTest - 2019.06.06 at 20h 22m 22s.xml">
-      <configuration name="BasicTest" configurationId="TestNG" />
+    <history-entry file="ToggleChessboardTableTest_verifyChessboardTableToggle - 2019.06.13 at 20h 20m 03s.xml">
+      <configuration name="ToggleChessboardTableTest.verifyChessboardTableToggle" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6268000" />
+    <option name="totallyTimeSpent" value="39421000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19936034" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23347548" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -219,8 +306,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32866043" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20491803" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -230,7 +317,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32866043" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32793018" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -246,22 +333,150 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/target/classes/BasicTest.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="19" selection-start-line="9" selection-start-column="4" selection-end-line="15" selection-end-column="19" />
+        <state>
+          <folding>
+            <element signature="e#0#981#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="299" column="30" selection-start-line="299" selection-start-column="30" selection-end-line="299" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BasicTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="47" column="144" selection-start-line="47" selection-start-column="144" selection-end-line="47" selection-end-column="144" />
+        <state relative-caret-position="578">
+          <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1517#1518#0" expanded="true" />
-            <element signature="e#1620#1621#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-chrome-driver/2.41.0/selenium-chrome-driver-2.41.0.jar!/org/openqa/selenium/chrome/ChromeOptions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+          <folding>
+            <element signature="e#1361#1362#0" expanded="true" />
+            <element signature="e#1433#1434#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-chrome-driver/2.41.0/selenium-chrome-driver-2.41.0.jar!/org/openqa/selenium/chrome/ChromeDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+          <folding>
+            <element signature="e#886#887#0" expanded="true" />
+            <element signature="e#959#960#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/suite.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="71" column="54" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/2.41.0/selenium-support-2.41.0.jar!/org/openqa/selenium/support/ui/WebDriverWait.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/2.41.0/selenium-support-2.41.0.jar!/org/openqa/selenium/support/ui/ExpectedConditions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/2.41.0/selenium-support-2.41.0.jar!/org/openqa/selenium/support/ui/FluentWait.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="124" column="19" selection-start-line="124" selection-start-column="19" selection-end-line="124" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/ChessboardTableNonExistenceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/ToggleChessboardTableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/ChessboardButtonExistenceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="47" column="54" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/PageTitleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="99" column="33" selection-start-line="99" selection-start-column="33" selection-end-line="99" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chessboardSuite.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="62" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="ChessboardSuite">
+    <test name="VerifyPageTitle">
+        <classes>
+            <class name="selenium.PageTitleTest"/>
+        </classes>
+    </test>
+    <test name="VerifyChessboardButtonExistence">
+        <classes>
+            <class name="selenium.ChessboardButtonExistenceTest"/>
+        </classes>
+    </test>
+    <test name="VerifyChessboardTableNonExistence">
+        <classes>
+            <class name="selenium.ChessboardTableNonExistenceTest"/>
+        </classes>
+    </test>
+    <test name="VerifyChessboardTableToggle">
+        <classes>
+            <class name="selenium.ToggleChessboardTableTest"/>
+        </classes>
+    </test>
+</suite>
