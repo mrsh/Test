@@ -1,10 +1,11 @@
-package selenium;
+package selenium.chessboard;
 
 import org.testng.Assert;
 
 import org.testng.annotations.Test;
+import commons.TestBase;
 
-public class PageTitleTest extends TestBase{
+public class PageTitleTest extends TestBase {
 
 
         //Deklaracja testu sprawdzającego tytuł strony

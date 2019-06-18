@@ -3,22 +3,22 @@
 <suite name="ChessboardSuite">
     <test name="VerifyPageTitle">
         <classes>
-            <class name="selenium.PageTitleTest"/>
+            <class name="selenium.chessboard.PageTitleTest"/>
         </classes>
     </test>
     <test name="VerifyChessboardButtonExistence">
         <classes>
-            <class name="selenium.ChessboardButtonExistenceTest"/>
+            <class name="selenium.chessboard.ChessboardButtonExistenceTest"/>
         </classes>
     </test>
     <test name="VerifyChessboardTableNonExistence">
         <classes>
-            <class name="selenium.ChessboardTableNonExistenceTest"/>
+            <class name="selenium.chessboard.ChessboardTableNonExistenceTest"/>
         </classes>
     </test>
     <test name="VerifyChessboardTableToggle">
         <classes>
-            <class name="selenium.ToggleChessboardTableTest"/>
+            <class name="selenium.chessboard.ToggleChessboardTableTest"/>
         </classes>
     </test>
 </suite>

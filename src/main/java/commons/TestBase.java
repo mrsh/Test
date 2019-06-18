@@ -1,4 +1,4 @@
-package selenium;
+package commons;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.TimeoutException;
@@ -37,9 +37,10 @@ public class TestBase {
     protected WebElement chessboardButton;
 
 
+
     /* Deklaracja metody, która zostanie uruchomiona przed uruchomieniem pierwszego testu - metoda oznaczona tą adnotacją zostanie wywołana tylko raz*/
     @BeforeSuite
-    private void setChromedriverPath() {
+    protected void setChromedriverPath() {
         /*Ustawienie ścieżki do chromedriver.exe, który jest pośrednikiem między naszym kodem a przeglądarką,
         chromedriver sam ogarnia sobie, gdzie jest nasza przeglądarka*/
         System.setProperty("webdriver.chrome.driver", "C:\\szkolenie-QA-repo\\Test\\chromedriver.exe");
@@ -48,7 +49,7 @@ public class TestBase {
 
     /*Deklaracja metody, która zostanie wykonana przed każdym testem*/
     @BeforeTest
-    private void getChessboardPage(){
+    protected void getChessboardPage(){
 
         //Inicjacja obiektu ChromeOptions options - w pewnym momencie mieliśmy to w @BeforeSuite, ale w @AfterTest ubijamy całego drivera, także przed każdym testem musimy go tworzyć od nowa
         options = new ChromeOptions();
@@ -74,7 +75,7 @@ public class TestBase {
 
     //Deklaracja metody, która zostanie uruchomiona po każdym teście
     @AfterTest
-    private void guit() {
+    protected void guit() {
         //Zamknięcie przeglądarki i zniszczenie obiektu driver
         driver.quit();
     }

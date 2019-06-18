@@ -1,12 +1,10 @@
-package selenium;
+package selenium.chessboard;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import commons.TestBase;
 
-public class ChessboardButtonExistenceTest extends TestBase{
+public class ChessboardButtonExistenceTest extends TestBase {
 
     @Test
 

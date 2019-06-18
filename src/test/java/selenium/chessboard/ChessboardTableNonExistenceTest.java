@@ -1,9 +1,10 @@
-package selenium;
+package selenium.chessboard;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import commons.TestBase;
 
-public class ChessboardTableNonExistenceTest extends TestBase{
+public class ChessboardTableNonExistenceTest extends TestBase {
 
     @Test
     public void verifyChessboardTableNonExistence(){
